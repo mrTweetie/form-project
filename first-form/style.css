@@ -83,9 +83,7 @@ h1 {
     background: var(--color4);
     overflow: hidden;
 }
-.right {
-    
-}
+
 #form {
     display:inline-flex;
     justify-self: center;
@@ -168,5 +166,9 @@ h1:hover {
 }
 
 @media screen and (max-width: 600px), (max-height: 500px) {
-    :default::content
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
 }
+    
