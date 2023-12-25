@@ -81,9 +81,7 @@ h1 {
     place-content: center;
     height: 100vw;
     background: var(--color4);
-    overflow: hidden;
-}
-
+    overflow: hidden;}
 #form {
     display:inline-flex;
     justify-self: center;
